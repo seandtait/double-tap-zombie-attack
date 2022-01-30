@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE460A6B1D5A265D00F8CD43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE460A6A1D5A265D00F8CD43 /* AppDelegate.swift */; };
+		AE460A6D1D5A265E00F8CD43 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AE460A6C1D5A265E00F8CD43 /* GameScene.sks */; };
+		AE460A6F1D5A265E00F8CD43 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE460A6E1D5A265E00F8CD43 /* GameScene.swift */; };
+		AE460A711D5A265E00F8CD43 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE460A701D5A265E00F8CD43 /* GameViewController.swift */; };
+		AE460A741D5A265E00F8CD43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE460A721D5A265E00F8CD43 /* Main.storyboard */; };
+		AE460A761D5A265E00F8CD43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE460A751D5A265E00F8CD43 /* Assets.xcassets */; };
+		AE460A791D5A265E00F8CD43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE460A771D5A265E00F8CD43 /* LaunchScreen.storyboard */; };
+		AE460A871D5A36A300F8CD43 /* gunshot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE460A861D5A36A300F8CD43 /* gunshot.mp3 */; };
+		AE4854F61D5B499600E57179 /* Deanna.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE4854F51D5B498500E57179 /* Deanna.ttf */; };
+		AE4854F81D5B4DAC00E57179 /* buildings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE4854F71D5B4DAC00E57179 /* buildings.jpg */; };
+		AE4854FA1D5B52BB00E57179 /* buildings2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE4854F91D5B52BB00E57179 /* buildings2.jpg */; };
+		AE4854FC1D5B61F900E57179 /* blood.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4854FB1D5B61F900E57179 /* blood.png */; };
+		AE4854FE1D5B666500E57179 /* sound-on.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4854FD1D5B666500E57179 /* sound-on.png */; };
+		AE4855001D5B66D400E57179 /* sound-off.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4854FF1D5B66D400E57179 /* sound-off.png */; };
+		AE4855031D5BBBDC00E57179 /* survivor-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE4855011D5BBBDC00E57179 /* survivor-sound.mp3 */; };
+		AE4855041D5BBBDC00E57179 /* zombie-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE4855021D5BBBDC00E57179 /* zombie-sound.mp3 */; };
+		AE4855061D5CFD5400E57179 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4855051D5CFD5400E57179 /* logo.png */; };
+		AE575F841D66033500A438BF /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F831D66033500A438BF /* GoogleMobileAds.framework */; };
+		AE575F861D66035A00A438BF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F851D66035A00A438BF /* AdSupport.framework */; };
+		AE575F881D66036000A438BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F871D66036000A438BF /* AudioToolbox.framework */; };
+		AE575F8A1D66036B00A438BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F891D66036B00A438BF /* AVFoundation.framework */; };
+		AE575F8C1D66037400A438BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F8B1D66037400A438BF /* CoreGraphics.framework */; };
+		AE575F8E1D66037C00A438BF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F8D1D66037C00A438BF /* CoreTelephony.framework */; };
+		AE575F911D66038700A438BF /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F8F1D66038700A438BF /* EventKit.framework */; };
+		AE575F921D66038700A438BF /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F901D66038700A438BF /* EventKitUI.framework */; };
+		AE575F941D66039100A438BF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F931D66039100A438BF /* MessageUI.framework */; };
+		AE575F961D66039A00A438BF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F951D66039A00A438BF /* StoreKit.framework */; };
+		AE575F981D6603A200A438BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE575F971D6603A200A438BF /* SystemConfiguration.framework */; };
+		AE575F9B1D6603D700A438BF /* human.png in Resources */ = {isa = PBXBuildFile; fileRef = AE575F991D6603D700A438BF /* human.png */; };
+		AE575F9C1D6603D700A438BF /* zombie.png in Resources */ = {isa = PBXBuildFile; fileRef = AE575F9A1D6603D700A438BF /* zombie.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE460A671D5A265D00F8CD43 /* Double Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Double Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE460A6A1D5A265D00F8CD43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE460A6C1D5A265E00F8CD43 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AE460A6E1D5A265E00F8CD43 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AE460A701D5A265E00F8CD43 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AE460A731D5A265E00F8CD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE460A751D5A265E00F8CD43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE460A781D5A265E00F8CD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE460A7A1D5A265E00F8CD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE460A861D5A36A300F8CD43 /* gunshot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gunshot.mp3; sourceTree = "<group>"; };
+		AE4854F51D5B498500E57179 /* Deanna.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Deanna.ttf; sourceTree = "<group>"; };
+		AE4854F71D5B4DAC00E57179 /* buildings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buildings.jpg; sourceTree = "<group>"; };
+		AE4854F91D5B52BB00E57179 /* buildings2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buildings2.jpg; sourceTree = "<group>"; };
+		AE4854FB1D5B61F900E57179 /* blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blood.png; sourceTree = "<group>"; };
+		AE4854FD1D5B666500E57179 /* sound-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound-on.png"; sourceTree = "<group>"; };
+		AE4854FF1D5B66D400E57179 /* sound-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound-off.png"; sourceTree = "<group>"; };
+		AE4855011D5BBBDC00E57179 /* survivor-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "survivor-sound.mp3"; sourceTree = "<group>"; };
+		AE4855021D5BBBDC00E57179 /* zombie-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "zombie-sound.mp3"; sourceTree = "<group>"; };
+		AE4855051D5CFD5400E57179 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		AE575F831D66033500A438BF /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		AE575F851D66035A00A438BF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		AE575F871D66036000A438BF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AE575F891D66036B00A438BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AE575F8B1D66037400A438BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE575F8D1D66037C00A438BF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AE575F8F1D66038700A438BF /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		AE575F901D66038700A438BF /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		AE575F931D66039100A438BF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AE575F951D66039A00A438BF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AE575F971D6603A200A438BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE575F991D6603D700A438BF /* human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = human.png; sourceTree = "<group>"; };
+		AE575F9A1D6603D700A438BF /* zombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE460A641D5A265D00F8CD43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE575F981D6603A200A438BF /* SystemConfiguration.framework in Frameworks */,
+				AE575F961D66039A00A438BF /* StoreKit.framework in Frameworks */,
+				AE575F941D66039100A438BF /* MessageUI.framework in Frameworks */,
+				AE575F911D66038700A438BF /* EventKit.framework in Frameworks */,
+				AE575F921D66038700A438BF /* EventKitUI.framework in Frameworks */,
+				AE575F8E1D66037C00A438BF /* CoreTelephony.framework in Frameworks */,
+				AE575F8C1D66037400A438BF /* CoreGraphics.framework in Frameworks */,
+				AE575F8A1D66036B00A438BF /* AVFoundation.framework in Frameworks */,
+				AE575F881D66036000A438BF /* AudioToolbox.framework in Frameworks */,
+				AE575F861D66035A00A438BF /* AdSupport.framework in Frameworks */,
+				AE575F841D66033500A438BF /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE460A5E1D5A265D00F8CD43 = {
+			isa = PBXGroup;
+			children = (
+				AE575F971D6603A200A438BF /* SystemConfiguration.framework */,
+				AE575F951D66039A00A438BF /* StoreKit.framework */,
+				AE575F931D66039100A438BF /* MessageUI.framework */,
+				AE575F8F1D66038700A438BF /* EventKit.framework */,
+				AE575F901D66038700A438BF /* EventKitUI.framework */,
+				AE575F8D1D66037C00A438BF /* CoreTelephony.framework */,
+				AE575F8B1D66037400A438BF /* CoreGraphics.framework */,
+				AE575F891D66036B00A438BF /* AVFoundation.framework */,
+				AE575F871D66036000A438BF /* AudioToolbox.framework */,
+				AE575F851D66035A00A438BF /* AdSupport.framework */,
+				AE575F831D66033500A438BF /* GoogleMobileAds.framework */,
+				AE460A691D5A265D00F8CD43 /* Double Tap */,
+				AE460A681D5A265D00F8CD43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE460A681D5A265D00F8CD43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE460A671D5A265D00F8CD43 /* Double Tap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE460A691D5A265D00F8CD43 /* Double Tap */ = {
+			isa = PBXGroup;
+			children = (
+				AE4854F41D5B497700E57179 /* Font */,
+				AE460A851D5A366F00F8CD43 /* Sfx */,
+				AE460A801D5A282B00F8CD43 /* Images */,
+				AE460A6A1D5A265D00F8CD43 /* AppDelegate.swift */,
+				AE460A6C1D5A265E00F8CD43 /* GameScene.sks */,
+				AE460A6E1D5A265E00F8CD43 /* GameScene.swift */,
+				AE460A701D5A265E00F8CD43 /* GameViewController.swift */,
+				AE460A721D5A265E00F8CD43 /* Main.storyboard */,
+				AE460A751D5A265E00F8CD43 /* Assets.xcassets */,
+				AE460A771D5A265E00F8CD43 /* LaunchScreen.storyboard */,
+				AE460A7A1D5A265E00F8CD43 /* Info.plist */,
+			);
+			path = "Double Tap";
+			sourceTree = "<group>";
+		};
+		AE460A801D5A282B00F8CD43 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE575F991D6603D700A438BF /* human.png */,
+				AE575F9A1D6603D700A438BF /* zombie.png */,
+				AE4855051D5CFD5400E57179 /* logo.png */,
+				AE4854FF1D5B66D400E57179 /* sound-off.png */,
+				AE4854FD1D5B666500E57179 /* sound-on.png */,
+				AE4854FB1D5B61F900E57179 /* blood.png */,
+				AE4854F91D5B52BB00E57179 /* buildings2.jpg */,
+				AE4854F71D5B4DAC00E57179 /* buildings.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AE460A851D5A366F00F8CD43 /* Sfx */ = {
+			isa = PBXGroup;
+			children = (
+				AE4855011D5BBBDC00E57179 /* survivor-sound.mp3 */,
+				AE4855021D5BBBDC00E57179 /* zombie-sound.mp3 */,
+				AE460A861D5A36A300F8CD43 /* gunshot.mp3 */,
+			);
+			name = Sfx;
+			sourceTree = "<group>";
+		};
+		AE4854F41D5B497700E57179 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AE4854F51D5B498500E57179 /* Deanna.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE460A661D5A265D00F8CD43 /* Double Tap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE460A7D1D5A265E00F8CD43 /* Build configuration list for PBXNativeTarget "Double Tap" */;
+			buildPhases = (
+				AE460A631D5A265D00F8CD43 /* Sources */,
+				AE460A641D5A265D00F8CD43 /* Frameworks */,
+				AE460A651D5A265D00F8CD43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Double Tap";
+			productName = "Double Tap";
+			productReference = AE460A671D5A265D00F8CD43 /* Double Tap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE460A5F1D5A265D00F8CD43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SDT;
+				TargetAttributes = {
+					AE460A661D5A265D00F8CD43 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE460A621D5A265D00F8CD43 /* Build configuration list for PBXProject "Double Tap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE460A5E1D5A265D00F8CD43;
+			productRefGroup = AE460A681D5A265D00F8CD43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE460A661D5A265D00F8CD43 /* Double Tap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE460A651D5A265D00F8CD43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE460A6D1D5A265E00F8CD43 /* GameScene.sks in Resources */,
+				AE460A791D5A265E00F8CD43 /* LaunchScreen.storyboard in Resources */,
+				AE4854FE1D5B666500E57179 /* sound-on.png in Resources */,
+				AE575F9C1D6603D700A438BF /* zombie.png in Resources */,
+				AE4855041D5BBBDC00E57179 /* zombie-sound.mp3 in Resources */,
+				AE575F9B1D6603D700A438BF /* human.png in Resources */,
+				AE4854FA1D5B52BB00E57179 /* buildings2.jpg in Resources */,
+				AE4854FC1D5B61F900E57179 /* blood.png in Resources */,
+				AE460A761D5A265E00F8CD43 /* Assets.xcassets in Resources */,
+				AE4855001D5B66D400E57179 /* sound-off.png in Resources */,
+				AE460A741D5A265E00F8CD43 /* Main.storyboard in Resources */,
+				AE4855031D5BBBDC00E57179 /* survivor-sound.mp3 in Resources */,
+				AE4854F81D5B4DAC00E57179 /* buildings.jpg in Resources */,
+				AE4855061D5CFD5400E57179 /* logo.png in Resources */,
+				AE4854F61D5B499600E57179 /* Deanna.ttf in Resources */,
+				AE460A871D5A36A300F8CD43 /* gunshot.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE460A631D5A265D00F8CD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE460A6F1D5A265E00F8CD43 /* GameScene.swift in Sources */,
+				AE460A711D5A265E00F8CD43 /* GameViewController.swift in Sources */,
+				AE460A6B1D5A265D00F8CD43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE460A721D5A265E00F8CD43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE460A731D5A265E00F8CD43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE460A771D5A265E00F8CD43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE460A781D5A265E00F8CD43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE460A7B1D5A265E00F8CD43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7c6fbf61-073e-4730-a67d-f47d30ca6a4a";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE460A7C1D5A265E00F8CD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "4e0d56fb-e683-4868-9d80-2f9e2d2cd08a";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE460A7E1D5A265E00F8CD43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Double Tap/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdt.Double-Tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE460A7F1D5A265E00F8CD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Double Tap/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdt.Double-Tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE460A621D5A265D00F8CD43 /* Build configuration list for PBXProject "Double Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE460A7B1D5A265E00F8CD43 /* Debug */,
+				AE460A7C1D5A265E00F8CD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE460A7D1D5A265E00F8CD43 /* Build configuration list for PBXNativeTarget "Double Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE460A7E1D5A265E00F8CD43 /* Debug */,
+				AE460A7F1D5A265E00F8CD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE460A5F1D5A265D00F8CD43 /* Project object */;
+}
